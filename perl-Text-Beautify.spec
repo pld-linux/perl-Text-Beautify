@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Beautify
+%define		pdir	Text
+%define		pnam	Beautify
 Summary:	Beautifies text
 Summary(pl):	Upiêkszanie tekstu
 Name:		perl-Text-Beautify
