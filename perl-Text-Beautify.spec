@@ -8,13 +8,13 @@
 Summary:	Beautifies text
 Summary(pl):	Upiêkszanie tekstu
 Name:		perl-Text-Beautify
-Version:	0.02
+Version:	0.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic	
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	68abef9acd2c4aae9fa550e597471329
+# Source0-md5:	9858d264133411d5f7f31c7179ebf525
 URL:		http://search.cpan.org/dist/Text-Beatuify/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
