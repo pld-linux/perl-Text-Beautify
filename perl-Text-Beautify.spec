@@ -7,7 +7,7 @@
 %define	pnam	Beautify
 Summary:	Beautifies text
 Summary(pl):	Upiêkszanie tekstu
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Text-Beautify
 Version:	0.02
 Release:	1
 # same as perl
