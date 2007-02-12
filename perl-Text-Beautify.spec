@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Beautify
 Summary:	Beautifies text
-Summary(pl):	Upiêkszanie tekstu
+Summary(pl.UTF-8):   UpiÄ™kszanie tekstu
 Name:		perl-Text-Beautify
 Version:	0.08
 Release:	1
@@ -30,14 +30,14 @@ You can enable / disable features with enable_feature /
 disable_feature. These commands return a true value if they are
 successful.
 
-%description -l pl
-Upiêksza tekst. Wykonuje operacje takie jak usuwanie podwójnych
-spacji, usuwanie zbêdnych spacji z pocz±tku i koñca linii, zamiana
-pierwszej litery na wielk±, itp.
+%description -l pl.UTF-8
+UpiÄ™ksza tekst. Wykonuje operacje takie jak usuwanie podwÃ³jnych
+spacji, usuwanie zbÄ™dnych spacji z poczÄ…tku i koÅ„ca linii, zamiana
+pierwszej litery na wielkÄ…, itp.
 
-Mo¿na w³±czyæ / wy³±czyæ konkretn± operacjê za pomoc± enable_feature /
-disable_feature. Komendy te zwróc± prawdê je¶li ich wykonanie zakoñczy
-siê powodzeniem.
+MoÅ¼na wÅ‚Ä…czyÄ‡ / wyÅ‚Ä…czyÄ‡ konkretnÄ… operacjÄ™ za pomocÄ… enable_feature /
+disable_feature. Komendy te zwrÃ³cÄ… prawdÄ™ jeÅ›li ich wykonanie zakoÅ„czy
+siÄ™ powodzeniem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
