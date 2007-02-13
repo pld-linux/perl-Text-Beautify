@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Beautify
 Summary:	Beautifies text
-Summary(pl.UTF-8):   Upiększanie tekstu
+Summary(pl.UTF-8):	Upiększanie tekstu
 Name:		perl-Text-Beautify
 Version:	0.08
 Release:	1
